@@ -1,0 +1,37 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "description": "Website ini adalah tempat untuk download wallpaper HD gratis",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start-dev": "webpack serve --config webpack.dev.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "Ardianto",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "jquery": "^3.6.1",
+    "lozad": "^1.16.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}

@@ -1,0 +1,18 @@
+$primary: skyblue;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+body{
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.mode{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+}
+@media screen and (max-width: 800px) {
+    body{
+        overflow-x: hidden !important;
+    }
+}

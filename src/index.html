@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picsum</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1829/1829415.png">
+</head>
+
+<body>
+    <jumbotron-hero></jumbotron-hero>
+    <random-image></random-image>
+    <section class="container mt-5">
+        <h1 class="fs-2 border-bottom mb-3 p-1">List Image</h1>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link prev" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item page-link active" value=1 id="page">1</li>
+                <li class="page-item">
+                    <a class="page-link next" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="listPic" class="row justify-content-center mt-5 p-2 g-2"></div>
+    </section>
+    <footer class="bg-primary p-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <p>Made with &#10084; by Ardianto Nugroho</p>
+                    <p>
+                        <img src="https://cdn-icons-png.flaticon.com/512/1829/1829415.png" alt="logos" width=20px>
+                        Picsum &copy2022
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
